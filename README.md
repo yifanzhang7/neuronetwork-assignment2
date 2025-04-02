@@ -15,11 +15,14 @@ This repository contains PyTorch implementations and reproduction results for Re
 
 ## Repository Structure
 
-neural-network-assignment2/
-├── resnext/ # ResNeXt implementation
-│ ├── ResNeXt.py # Code for fine tuning
-│ ├── ResNeXt_scratch.py # Code for training from scratch
-├── densenet/ # DenseNet implementation
-│ ├── DenseNet.py # Code for fine tuning
-│ ├── DenseNet_scratch.py # Code for training from scratch
+```bash
+$ tree -L 2 --dirsfirst
+.
+├── resnext/
+│   ├── resnext.py
+│   └── resnext_scratch.py
+├── densenet/
+│   ├── densenet.py
+│   └── densenet_scratch.py
+```
 
