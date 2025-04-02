@@ -15,14 +15,15 @@ This repository contains PyTorch implementations and reproduction results for Re
 
 ## Repository Structure
 
-```bash
-$ tree -L 2 --dirsfirst
-.
-├── resnext/
-│   ├── resnext.py
-│   └── resnext_scratch.py
-├── densenet/
-│   ├── densenet.py
-│   └── densenet_scratch.py
+```text
+neural-network-assignment2/
+├── resnext/                  # ResNeXt implementation
+│   ├── resnext.py            # Fine-tuning code
+│   └── resnext_scratch.py    # Training-from-scratch code
+├── densenet/                 # DenseNet implementation
+│   ├── densenet.py           # Fine-tuning code
+│   └── densenet_scratch.py   # Training-from-scratch code
+├── README.md                 # Project documentation
+└── requirements.txt          # Python dependencies
 ```
 
